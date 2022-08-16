@@ -6,5 +6,7 @@ function valideRecherche() {
     }
     else {
         $("#myModal").modal('show');
+        
+        $("#form-search").submit();
     }
 }
